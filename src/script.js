@@ -140,9 +140,9 @@ function animateAndDisplay(playerChoice, IAchoice, buttonArray) {
 
 // Función para obtener la ruta de la imagen según la opción seleccionada
 function getImagePath(choice) {
-    if (choice === rock) return "assets/punch.png";
-    if (choice === scissors) return "assets/two.png";
-    if (choice === paper) return "assets/five.png";
+    if (choice === rock) return "assets/rock.svg";
+    if (choice === scissors) return "assets/scissors.svg";
+    if (choice === paper) return "assets/paper.svg";
 }
 
 // Función para actualizar los puntos y el conteo de turnos
